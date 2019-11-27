@@ -1,0 +1,11 @@
+<div class="book-shelf">
+    <div *ngFor="let book of books">
+        <app-book [book]="book"></app-book>
+    </div>
+    <mat-paginator 
+        [length]="totalItems"
+        [pageSize]="20" 
+        [pageSizeOptions]="[5, 10, 20]" 
+        (page)="pageEvent($event)">
+    </mat-paginator>
+</div>

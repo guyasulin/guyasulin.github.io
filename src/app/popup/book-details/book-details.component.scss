@@ -1,0 +1,30 @@
+.book-details {
+    .title {
+        text-align: center;
+    }
+
+    .footer {
+         .btn {
+             margin-right: 10px;
+            padding: 8px 15px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            border: transparent;
+            letter-spacing: 1.25px;
+            border-radius: 2.6px;
+         }
+
+        .btn-close {
+            background:rgba(0,0,0,.42);
+        }
+
+        .btn-save {
+            background:#0079FD;
+        }
+
+        .btn-delete {
+            background: #ff0000bd;
+        }
+    }
+}

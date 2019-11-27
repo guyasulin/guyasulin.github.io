@@ -1,0 +1,11 @@
+<div class="search-bar">
+    <app-navbar [userName]="userName"></app-navbar>
+
+    <div class="search">
+        <input class="searchPut" name="bookName" [(ngModel)]="bookName" (ngModelChange)="searchBook()" autofocus
+            debounceTime="2000000" placeholder="Search Book">
+    </div>
+
+
+    <app-book-shelf [books]="books" [totalItems]="totalItems"></app-book-shelf>
+</div>

@@ -1,0 +1,12 @@
+.book-shelf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > div {
+        display: inline-block;
+        padding: 55px;
+        padding-bottom: 10px;
+    }
+}
